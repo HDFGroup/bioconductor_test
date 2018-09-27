@@ -20,6 +20,8 @@ if len(sys.argv) > 2:
     if index + cols > NUM_COLS:
         # adjust so we don't run off the array
         index = NUM_COLS - cols
+else:
+    index = random.randint(0, NUM_COLS - cols)
 print("index:", index, "cols:", cols)
 print("="*40)
 
