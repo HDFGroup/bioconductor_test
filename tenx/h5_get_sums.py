@@ -1,4 +1,5 @@
 import h5py
+import numpy as np
 
 with h5py.File("tenx_full.h5", "r") as f:
     dset = f["newassay001"]

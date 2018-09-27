@@ -1,6 +1,7 @@
 import sys
 import random
 import h5py
+import numpy as np
 
 NUM_COLS = 27998  # 2nd index of dataset shape
 cols = 100
