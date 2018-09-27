@@ -1,5 +1,5 @@
 import h5pyd as h5py
-import numpuy as np
+import numpy as np
 
 with h5py.File("/shared/bioconductor/tenx_full.h5", "r") as f:
     dset = f["newassay001"]
